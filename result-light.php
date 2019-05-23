@@ -1,3 +1,9 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SQL</title>
+
 <link rel="stylesheet" type="text/css" href="https://fiddle.jshell.net/css/result-light.css">
 
 
@@ -19,9 +25,9 @@ mark {
 
 
 
-
-
 <script type="text/javascript" class="init">
+
+
  $(document).ready(function() {
   // Setup - add a text input to each footer cell
   $('#example tfoot th').each( function () {
@@ -34,6 +40,8 @@ mark {
    // Enable mark.js search term highlighting
    mark: true
   });
+ 
+  
   // Apply the search
   table.columns().every( function () {
    var that = this;
@@ -48,6 +56,10 @@ mark {
   } );
  } );
 </script>
+</head>
+
+<body>
+
 <table id="example" class="display" style="width:100%">
 
  <thead>
@@ -62,7 +74,7 @@ mark {
  </thead>
  <tbody>
   <tr>
-   <td>Tiger Nixon</td>
+   <td>簡 Nixon</td>
    <td>System Architect</td>
    <td>Edinburgh</td>
    <td>61</td>
@@ -70,7 +82,7 @@ mark {
    <td>$320,800</td>
   </tr>
   <tr>
-   <td>Garrett Winters</td>
+   <td>简Garrett Winters</td>
    <td>Accountant</td>
    <td>Tokyo</td>
    <td>63</td>
@@ -114,3 +126,5 @@ mark {
  </tfoot>
 </table>
 
+</body>
+</html>
