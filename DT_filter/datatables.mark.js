@@ -81,8 +81,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             searchVal = columnSearch || globalSearch;
 			if (searchVal) {
 			  nodes.forEach(function (node) {
-          　  	var NewArray = new Array();
-　            	var NewArray = searchVal.split("|");
+				var searchValTmp=searchVal.replace(" ", "|");
+				var NewArray = new Array();
+				var NewArray = searchValTmp.split("|");
 				var i;
 				for (i = 0; i < NewArray.length; i++) { 
 					//console.log("peter" + NewArray[i]);
